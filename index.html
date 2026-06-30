@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>std-reg-form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Registration Form</h1>
+        <form id="studentForm">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" placeholder="enter first name" required>
+
+
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" placeholder="enter last name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="enter your email" required>
+
+            <label for="address">Address</label>
+            <textarea name="" id="address" rows="4" placeholder="enter ur address" required></textarea>
+
+            <label for="pincode">Pincode</label>
+            <input type="text" id="pincode" placeholder="enter ur pincode" required>
+
+            <label> Gender</label>
+            <div class="gender">
+                <input type="radio" id="male" name="gender" value="Male" required>
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="Female" required>
+                <label for="female">Female</label>
+
+                
+
+
+            </div>
+
+            <label for="state">State</label>
+            <input type="text" id="state" placeholder="enter ur state" required>
+
+            <label for="country">Country</label>
+            <input type="text" id="country" placeholder="enter ur counntry" required>
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+
+        <h2>Student Details </h2>
+
+        <div class="table-container">
+            <table id="studentTable">
+
+                <thead>
+
+                    <tr>
+                        <th>First name</th>
+                        <th>last name</th>
+                        <th>Email</th>
+                        <th>Address</th>
+                        <th>Pincode</th>
+                        <th>Gender</th>
+                        <th>state</th>
+                        <th>Country</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                   
+
+
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
